@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>טופרבוט תבנית בוסטרפ</title>
 
     <!-- Bootstrap Core CSS-->
-		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap_rtl.css" type="text/css">
 
     <!-- Custom CSS -->
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/modern-business.css" type="text/css">
@@ -39,42 +39,33 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">ניוט טוגל</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url();?>">טבע בראש</a>
+                <a class="navbar-brand" href="<?php echo base_url();?>">טופרבוט - תבנית</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="<?php echo base_url();?>index.php/page/get_name/about">מי אנחנו</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url();?>index.php/page/get_name/services">שרותים</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url();?>index.php/page/get_name/contact">צור קשר</a>
-                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">פורטפוליו <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_1_col">1 Column Portfolio</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_1_col">פורטפוליו - עמוד 1</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_2_col">2 Column Portfolio</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_2_col">פורטפוליו 2 עמודים</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_3_col">3 Column Portfolio</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_3_col">פורטפוליו 3 עמודים</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_4_col">4 Column Portfolio</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_4_col">פרוטפוליו 4 עמודים</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_item">Single Portfolio Item</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/portfolio_item">עמוד הצגת המוצר</a>
                             </li>
                         </ul>
                     </li>
@@ -88,12 +79,12 @@
                                 <a href="<?php echo base_url();?>index.php/page/get_name/blog_home_2">בלוג בית 2</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/blog_post">בלוג בית 3</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/blog_post">בלוג - פוסט</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">עמודים מיוחדים <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="<?php echo base_url();?>index.php/page/get_name/fullwidth">רוחב מלא</a>
@@ -108,9 +99,18 @@
                                 <a href="<?php echo base_url();?>index.php/page/get_name/page_404">404</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url();?>index.php/page/get_name/pricing">Pricing Table</a>
+                                <a href="<?php echo base_url();?>index.php/page/get_name/pricing">טבלאות תמחור</a>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url();?>index.php/page/get_name/about">מי אנחנו</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url();?>index.php/page/get_name/services">שרותים</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url();?>index.php/page/get_name/contact">צור קשר</a>
                     </li>
                 </ul>
             </div>
